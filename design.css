@@ -1,0 +1,265 @@
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  
+  height: 92px;
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto;
+  align-items:center;
+  
+  margin:0px auto;
+  
+}
+#first .abc{
+  display:flex;
+  
+  list-style-type: none;
+  align-items: center;
+  gap: 32px;
+ 
+
+
+}
+
+#first .abc a{
+
+ color:#000000;
+ text-decoration: none;
+ font-size:16px;
+}
+
+
+
+#first .img{
+  
+  
+  border: 16px 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.btn{
+ background-color: #30B868;
+  border:none;
+  padding:12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight:600;
+  color:white;
+ 
+  
+
+
+ 
+}.btn:hover{
+   cursor: pointer;
+}
+
+   
+ 
+#banner{
+     
+  height: 663px;
+  width:1680px;      
+
+  background-image: url("assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;  
+  justify-content: center;   
+  align-items: center;   
+}
+
+.hero{
+  margin-left: 100px;    
+  color: white;
+  max-width: 650px;
+}
+.hero-section h1{
+  font-size: 60px;
+  font-weight: bold;
+  
+}
+.hero-section .ab{
+  font-size: 62px;
+  font-style: bold;
+  color:#30B868;
+  font-weight:700px ;
+}
+
+.hero-section p{
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.btn2{
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+.normal-button button{
+  background: white;
+  color: black;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+
+.normal-button{
+  text-align:center;
+}
+.second{
+  height:444px;
+  width:1600px;
+  background-color: #f2f5f8;
+  margin-top: 0%;
+}
+.notes{
+  text-align: center;
+  
+  
+}
+.notes h2{
+
+color:#001939;
+font-weight: bold;
+font-size: 48px;
+
+
+}
+.notes p{
+  color:#627382;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 44px;
+}
+.skill-grid{
+  display:flex;
+  justify-items:space-between;
+  gap:24px;
+  flex-wrap:wrap;
+  margin-top:44px;
+  align-items: center;
+  max-width: 1400px;
+  margin:0 auto;
+
+
+}
+.skill-box{
+  width:322px;
+  height:300px;
+  background-color: white;
+  
+}
+.skill-card{
+  padding:30px;
+  background: white;
+  text-align: center;
+  align-items: center;
+  
+
+}
+.skill-card .ellipse{
+  
+  width: 60px;
+  height: 60px;
+  background: red;
+  border-radius: 50%; 
+  margin:0  auto;
+   display: flex;              
+  align-items: center;        
+  justify-content: center;    
+
+  margin: 0 auto 20px;
+}
+.skill-card .img{
+  width:32px;
+  height:32px;
+  display:block;
+  padding:83px 145px 184px 144px ;
+  margin: 0 auto;
+  align-items: center;
+
+  
+  
+
+  align-items:center;
+}
+
+.skill-card h3{
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 16px;
+  
+  
+}
+.skill-card p{
+  font-size:16px;
+  text-align: center;
+  color:#627382;
+}
+
+.third{
+  padding:120px 120px 120px 120px;
+  
+}
+.whole{
+  display:flex;
+}
+.whole .pic{
+  width:600px;
+  height:600px;
+ 
+}
+.whole .para1{
+   padding:102px 60px 102px;
+}
+.whole .para1 h5{
+  font-size: 16px;
+  font-weight: 500px;
+  color:#627382;
+  text-align: left;
+  margin-bottom:16px;
+}
+.whole .para1 h1{
+  font-size:48px;
+  font-weight: 700px;
+  font-style:bold ;
+  text-align: left;
+  color:#001939;
+  margin-bottom:16px;
+
+}
+.whole .para1 p{
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: left;
+  color:#627382;
+  margin-bottom: 38px;
+}
+.whole .para1 .circle p{
+  gap:16px;
+  font-size: 16px;
+  font-weight: 500px;
+  color:#001939;
+  margin-bottom: 16px;
+
+}
+.para1{
+  width:760px;
+  height:600px;
+}
