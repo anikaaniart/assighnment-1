@@ -1,5 +1,9 @@
 
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -62,7 +66,7 @@ nav{
 #banner{
      
   height: 663px;
-  width:1680px;      
+  width:1600px;      
 
   background-image: url("assets/hero-bg.png");
   background-size: cover;
@@ -126,7 +130,7 @@ nav{
   height:444px;
   width:1600px;
   background-color: #f2f5f8;
-  margin-top: 0%;
+  margin-top:;
 }
 .notes{
   text-align: center;
@@ -138,13 +142,14 @@ nav{
 color:#001939;
 font-weight: bold;
 font-size: 48px;
-
+margin-top: 20px;
 
 }
 .notes p{
   color:#627382;
   font-size: 16px;
   font-weight: normal;
+  
   margin-bottom: 44px;
 }
 .skill-grid{
@@ -262,4 +267,88 @@ margin-bottom: 16px;
 .para1{
   width:760px;
   height:600px;
+}
+.fourth{
+  height:506px;
+  width:1600px;
+
+ 
+}
+.fourth .para2{
+ text-align: center;
+ width:1360px;
+ height:384px;
+ padding:80px 40px 80px 40px;
+align-items: center;
+margin:0 auto;
+  background-color:rgba(247, 246, 242, 1);
+}
+.fourth .para2 .one h2{
+font-size: 40px;
+font-weight: 700px;
+font-style: bold;
+color:#001939;
+margin-bottom: 16px;
+
+}
+.fourth .para2 .one p{
+  font-size: 16px;
+  font-weight: 400px;
+  color:#627382;
+  margin-bottom: 24px;
+}
+.fourth .para2 .two button{
+  width:194px;
+  height: 52px;
+  font-size: 16px;
+font-weight: 600;
+margin-bottom: 16px;
+}
+.fourth .para2 .two p{
+font-size: 16px;
+font-weight: 400;
+color:#627382;
+}
+.foot{
+  width:1600px;
+  height:384px;
+  background-color: #001939;
+}
+.foot .last{
+  padding:120px 120px 120px 16px;
+  display:flex;
+  justify-content: space-around;
+  
+}
+.last p{
+  font-size: 20px;
+font-weight: 500;
+color:#f2f5f8;
+margin-bottom: 16px;
+}
+.logo-nav{
+  align-items: start;
+}
+.icons{
+  display:flex;
+  justify-content: space-around;
+}
+.icon{
+  display:flex;
+  justify-content: space-around;
+  height:20px;
+  width:20px;
+}.final hr{
+  width:1360px;
+  height: 0px;
+ 
+  margin:0 auto;
+  margin-bottom: 30.5px;
+}
+.final p{
+  text-align: center;
+  color:#f2f5f8;
+  font-size: 16px;
+font-weight: 400;
+margin-bottom: 30px;
 }
