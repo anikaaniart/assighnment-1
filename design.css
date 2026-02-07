@@ -61,7 +61,7 @@ nav{
 
 
  
-}.btn:hover{
+}.btn:hover, .normal-button{
    cursor: pointer;
 }
 
