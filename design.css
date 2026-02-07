@@ -1,4 +1,8 @@
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -78,15 +82,51 @@ nav{
   align-items: center;   
 }
 
+.normal-button button{
+  font-family: "Inter", sans-serif;
+  color: #30B868;                    
+  font-weight: 600;
+                 
+ 
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  
+  width:229px;
+  height:34px;
+ text-align: center;
+ display: flex;
+ margin-bottom:16px;
+ 
+}
+.green-text{
+  color: #30B868;   
+}
+
+
+.normal-button {
+  display: flex;
+  justify-content: center;
+}
+
+.normal-button img{
+  padding:9px 12px 9px 9px;
+}
 .hero{
-  margin-left: 100px;    
+   
   color: white;
   max-width: 650px;
+  text-align: center;
+   
+
 }
 .hero-section h1{
-  font-size: 60px;
-  font-weight: bold;
-  
+ 
+  font-style: Bold;
+font-size: 60px;
+font-weight: 700;
+line-height: 84px;
+margin-bottom: 16px;
 }
 .hero-section .ab{
   font-size: 62px;
@@ -97,8 +137,10 @@ nav{
 
 .hero-section p{
   font-size: 18px;
-  margin: 20px 0;
-  line-height: 1.6;
+font-weight: 400;
+color:#627382;
+margin-bottom: 32px;
+font-style:normal;
 }
 
 .btn2{
@@ -110,18 +152,6 @@ nav{
   margin-left: 10px;
   cursor: pointer;
 }
-
-
-.normal-button button{
-  background: white;
-  color: black;
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: none;
-  font-size: 12px;
-  margin-bottom: 10px;
-}
-
 
 .normal-button{
   text-align:center;
